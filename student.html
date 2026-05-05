@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<aside>
+  <h2>Silent Classroom</h2>
+  <a href="student.html">Dashboard</a>
+  <a href="homework.html">Homework</a>
+  <a href="progress.html">Progress</a>
+  <a href="leaderboard.html">Leaderboard</a>
+  <a href="index.html">Logout</a>
+</aside>
+
+<main>
+  <h1>Hello, <span id="studentName"></span></h1>
+  <p class="muted">Your mission is simple: speak a little more every day.</p>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Today's Adaptive Task</h2>
+      <span id="taskBadge" class="badge"></span>
+      <h3 id="taskTitle"></h3>
+      <p id="taskInstruction"></p>
+
+      <div class="example">
+        <b>Example</b>
+        <p id="taskExample"></p>
+      </div>
+
+      <div class="starters">
+        <b>Sentence starters</b>
+        <ul id="sentenceStarters"></ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Voice Recorder</h2>
+      <div id="timer" class="timer">00</div>
+      <button onclick="startSpeaking()">Start Speaking</button>
+      <button class="secondary" onclick="stopSpeaking()">Stop</button>
+      <audio id="audioPlayer" controls></audio>
+      <p id="recordStatus"></p>
+    </div>
+
+    <div class="card">
+      <h2>Grammar Helper</h2>
+      <textarea id="grammarText" placeholder="Write what you said..."></textarea>
+      <button onclick="checkGrammar()">Check Grammar</button>
+      <div id="grammarResult" class="feedback"></div>
+    </div>
+  </section>
+</main>
+
+<script src="js/db.js"></script>
+<script src="js/student.js"></script>
+
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-YOUR_ELFSIGHT_ID"></div>
+</body>
+</html>
