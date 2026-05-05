@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<aside>
+  <h2>Silent Classroom</h2>
+  <a href="student.html">Dashboard</a>
+  <a href="homework.html">Homework</a>
+  <a href="progress.html">Progress</a>
+  <a href="leaderboard.html">Leaderboard</a>
+</aside>
+
+<main>
+  <h1>Homework Center</h1>
+
+  <section class="card">
+    <h2 id="homeworkTitle"></h2>
+    <p id="homeworkInstruction"></p>
+
+    <div class="example">
+      <b>Example</b>
+      <p id="homeworkExample"></p>
+    </div>
+
+    <textarea id="homeworkAnswer" placeholder="Write your answer here..."></textarea>
+
+    <button onclick="submitHomework()">Submit Homework</button>
+
+    <div id="homeworkFeedback" class="feedback"></div>
+  </section>
+</main>
+
+<script src="js/db.js"></script>
+<script src="js/homework.js"></script>
+
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-YOUR_ELFSIGHT_ID"></div>
+</body>
+</html>
