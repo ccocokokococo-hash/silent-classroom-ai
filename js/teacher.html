@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Teacher Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<aside>
+  <h2>Teacher Panel</h2>
+  <a href="teacher.html">Dashboard</a>
+  <a href="leaderboard.html">Leaderboard</a>
+  <a href="index.html">Logout</a>
+</aside>
+
+<main>
+  <h1>Teacher Dashboard</h1>
+
+  <section class="stats">
+    <div class="stat-card">
+      <span>Total Students</span>
+      <b id="totalStudents">0</b>
+    </div>
+    <div class="stat-card">
+      <span>Need Support</span>
+      <b id="needSupport">0</b>
+    </div>
+    <div class="stat-card">
+      <span>Total Recordings</span>
+      <b id="totalRecordings">0</b>
+    </div>
+  </section>
+
+  <section class="grid two">
+    <div class="card">
+      <h2>Assign Custom Task</h2>
+      <select id="studentSelect"></select>
+      <input id="customTitle" placeholder="Task title">
+      <textarea id="customInstruction" placeholder="Task instruction"></textarea>
+      <input id="customExample" placeholder="Example sentence">
+      <input id="customTime" type="number" placeholder="Time in seconds" value="30">
+      <button onclick="assignTask()">Assign Task</button>
+    </div>
+
+    <div class="card">
+      <h2>Intervention Notes</h2>
+      <p class="muted">Students marked red need individual attention.</p>
+      <div id="interventionList"></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Class List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Grade</th>
+          <th>Level</th>
+          <th>Points</th>
+          <th>Recordings</th>
+          <th>Homework</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="studentsTable"></tbody>
+    </table>
+  </section>
+</main>
+
+<script src="js/db.js"></script>
+<script src="js/teacher.js"></script>
+
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-YOUR_ELFSIGHT_ID"></div>
+</body>
+</html>
