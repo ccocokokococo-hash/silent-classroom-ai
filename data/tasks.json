@@ -1,0 +1,108 @@
+{
+  "grade6": {
+    "easy": [
+      {
+        "id": "6E1",
+        "type": "speaking",
+        "title": "Introduce Yourself",
+        "instruction": "Say your name, age, grade, and favorite subject.",
+        "example": "My name is Aida. I am 12 years old. I am in Grade 6. My favorite subject is English.",
+        "time": 25,
+        "points": 10,
+        "sentenceStarters": ["My name is...", "I am...", "My favorite subject is..."]
+      },
+      {
+        "id": "6E2",
+        "type": "speaking",
+        "title": "Five Words About Today",
+        "instruction": "Say five English words about your day and make one sentence.",
+        "example": "School, friend, lunch, homework, game. Today I went to school.",
+        "time": 20,
+        "points": 10,
+        "sentenceStarters": ["Today I...", "At school I...", "I feel..."]
+      }
+    ],
+    "medium": [
+      {
+        "id": "6M1",
+        "type": "speaking",
+        "title": "My School Day",
+        "instruction": "Describe your school day in 4 sentences.",
+        "example": "I go to school in the morning. I study English and Math. I have lunch with my friends. I go home after classes.",
+        "time": 35,
+        "points": 15,
+        "sentenceStarters": ["I go to...", "I study...", "After school..."]
+      },
+      {
+        "id": "6M2",
+        "type": "writing",
+        "title": "My Favorite Food",
+        "instruction": "Write 5 sentences about your favorite food.",
+        "example": "My favorite food is pizza. It is tasty. I eat it with my family. I like cheese. I can cook simple pizza.",
+        "time": 0,
+        "points": 15,
+        "sentenceStarters": ["My favorite food is...", "It is...", "I like it because..."]
+      }
+    ],
+    "hard": [
+      {
+        "id": "6H1",
+        "type": "speaking",
+        "title": "Why English Matters",
+        "instruction": "Speak for 45 seconds about why English is important.",
+        "example": "English is important because many people use it. It helps us travel, study, and communicate.",
+        "time": 45,
+        "points": 20,
+        "sentenceStarters": ["English is important because...", "It helps me...", "In the future..."]
+      }
+    ]
+  },
+  "grade7": {
+    "easy": [
+      {
+        "id": "7E1",
+        "type": "speaking",
+        "title": "About Me",
+        "instruction": "Introduce yourself in 5 simple sentences.",
+        "example": "My name is Dana. I am 13 years old. I live in Kazakhstan. I like music. I want to improve my English.",
+        "time": 30,
+        "points": 10,
+        "sentenceStarters": ["My name is...", "I live in...", "I want to..."]
+      }
+    ],
+    "medium": [
+      {
+        "id": "7M1",
+        "type": "speaking",
+        "title": "My Weekend",
+        "instruction": "Describe your last weekend using past tense.",
+        "example": "Last weekend, I visited my grandmother. I watched a movie. I did my homework. It was interesting.",
+        "time": 40,
+        "points": 15,
+        "sentenceStarters": ["Last weekend I...", "I visited...", "It was..."]
+      },
+      {
+        "id": "7M2",
+        "type": "writing",
+        "title": "My Best Friend",
+        "instruction": "Write 6 sentences about your best friend.",
+        "example": "My best friend is kind. We study together. We like playing games. My friend helps me. I like spending time with my friend.",
+        "time": 0,
+        "points": 15,
+        "sentenceStarters": ["My best friend is...", "We usually...", "I like my friend because..."]
+      }
+    ],
+    "hard": [
+      {
+        "id": "7H1",
+        "type": "speaking",
+        "title": "Future Career",
+        "instruction": "Speak about your future career and explain your choice.",
+        "example": "I want to become a doctor because I want to help people. This job is difficult but important.",
+        "time": 50,
+        "points": 20,
+        "sentenceStarters": ["In the future I want to...", "I choose this job because...", "This career is..."]
+      }
+    ]
+  }
+}
